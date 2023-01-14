@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("WRwJtjFYBAwK1Lj3F");
+    })();
+    </script>
+</head>
+<body>
+    <nav>
+            <a href="index.html"><img src="images/HY logo2.svg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact-me">CONTACT ME</a></li>
+                    <li><a href="resume/Resume_CS_updated (1).pdf" target="_blank">RESUME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<section class="header">
+
+<div class="text-box">
+    <div class="header-grid">
+
+        <div class="left-side-hero order-box">
+            <div id="everything-not-button">
+                <div class="container1">
+                    <div class="block"><img src='images/Rectangle_5.png'></div>
+                    <div id="quote"><p>passionate about user interfaces</p></div>
+                </div>
+                    
+                <div id="big-quote"><h1>Hi! My name is Hoangyen Nguyen. I am a UI Designer and Front-End Developer.</h1></div>
+            
+            </div>
+            
+            <div class="btn2"><a id='call-to-action' href="#about-me">READ MORE ABOUT ME</a></div>
+        </div>
+        <div class="newselfie order-box"><img src="images/IMG-0672.JPG"></div>
+    </div>
+</div>
+
+</section>
+
+<!--About me section-->
+<section class="about-me-parent anchor" id="about-me">
+
+        <div class="about-me-grid">
+            <div class="aboutmeimg1 order-box2"><img class='about-me-img' src="images/oldipic.jpg" alt="Hoangyen Selfie"></div>
+
+            <div class="about-me order-box2">
+                <div class="about-section-header" ><h1>About Me</h1></div>
+                
+                <div class="about-me-parent-des">
+                    <div class="about-me-description"><p>Hello! I'm Hoangyen. I have 3 years personal coding experience and 6 months of UI design in a professional setting.</p></div>
+                    <div class="about-me-description"><p> I am passionate about applying my design and web development skills in real-world projects. I enjoy creating designs that strongly convey company values while meeting the user's needs.</p></div>
+                    <div class="about-me-description"><p>Currently, I am learning the Human-centered design approach in order to create products that are better suited for users. I am also developing skills in other areas such as ReactJS and Tailwind. </p></div>
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+<!--Skills-->
+<section class="skills-icons anchor" id="skills">
+
+    <div class="section-header"><h1>Skills</h1></div>
+    <div class="all-image-grids">
+    <!-- Create the image grid container -->
+        <div class="image-grid">
+        <!-- Create four image grid items -->
+            <div class="image-grid__item">
+                <img src="images/javascript-svgrepo-com.svg" alt="Icon 6" class="image-grid__image">
+                <p class="image-grid__caption">HTML</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/css-svgrepo-com.svg" alt="Icon 4" class="image-grid__image">
+                <p class="image-grid__caption">CSS</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/javascript-1.svg" alt="Icon 8" class="image-grid__image">
+                <p class="image-grid__caption">Javascript</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/figma-svgrepo-com.svg" alt="Icon 5" class="image-grid__image">
+                <p class="image-grid__caption">Figma</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/adobe-xd-svgrepo-com.svg" alt="Icon 2" class="image-grid__image">
+                <p class="image-grid__caption">Adobe XD</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/adobe-photoshop-svgrepo-com.svg" alt="Icon 1" class="image-grid__image">
+                <p class="image-grid__caption">Adobe Photoshop</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/wordpress-svgrepo-com 1.svg" alt="Icon 8" class="image-grid__image">
+                <p class="image-grid__caption">Wordpress</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/brand-elementor-svgrepo-com.svg" alt="Icon 3" class="image-grid__image">
+                <p class="image-grid__caption">Elementor</p>
+            </div>
+
+            <div class="image-grid__item">
+                <img src="images/python-svgrepo-com.svg" alt="Icon 7" class="image-grid__image">
+                <p class="image-grid__caption">Python</p>
+            </div>
+
+    </div>
+
+        
+
+    </div>
+</section>
+
+<!--Projects-->
+<section class="projects anchor" id="projects">
+    <div class="project-header"><h1>Projects</h1></div>
+
+    <div class="cards-grid">
+        <div class="cards">
+
+            <div class="card-item">
+                <img class="card-image" src="images/website hero.png">
+
+                <div class="card-content">
+                    <h2><b>Personal Portfolio</b></h4>
+                    <h3>HTML | CSS | Javascript</h3>
+                    <p>My portfolio website</p>
+                </div>
+
+                <div class="card-buttons">
+                    <a href="">Website</a>
+                    <a href="">Code</a>
+                </div>
+            </div>
+            
+            <div class="card-item">
+                <img class="card-image" src="images/cyberdomeusa 1.png">
+
+                <div class="card-content">
+                    <h2><b>CyberdomeUSA Website</b></h4>
+                    <h3>Wordpress | Elementor</h3>
+                    <p>A website designed for a cyebrsecurity company.</p>
+                </div>
+
+                <div class="card-buttons">
+                    <a href="">Demo</a>
+                    <a href="">Code</a>
+                </div>
+            </div>
+
+            <div class="card-item">
+                <img class="card-image" src="images/cyberdomeusa 1.png">
+
+                <div class="card-content">
+                    <h2><b>CyberdomeUSA Website</b></h4>
+                    <h3>Wordpress | Elementor</h3>
+                    <p>A website designed for a cyebrsecurity company.</p>
+                </div>
+
+                <div class="card-buttons">
+                    <a href="">Demo</a>
+                    <a href="">Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact Me-->
+<section class="contact-me anchor" id="contact-me">
+    <div class="contact-me-header"><h1>Contact Me</h1></div>
+    <div class="contact-form">
+        <p>Please let me know if you have any questions!</p>
+        <form>
+                <div class="txtbox">
+                    <input id="full-name"type="text" name="" value="" placeholder="Full Name"></div>
+
+                <div class="txtbox">
+                    <input id="email"type="email" name="" value="" placeholder="Email">
+                </div>
+
+
+                <div class="txtbox">
+                    <textarea id="message1"placeholder="Message" ></textarea>
+                </div>
+
+                <div>
+                    <a onclick=SendMail() class="send-message-btn">Send Message</a> 
+                </div>
+
+        </form>
+    </div>
+</section>
+<!---Javascript for toggle menu for mobile --->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+    document.querySelectorAll(".projcard-description").forEach(function(box) {
+        $clamp(box, {clamp: 6});
+    });
+    
+    function SendMail() {
+        var params = {
+
+            full_name : document.getElementById("full-name").value,
+            email_id : document.getElementById("email").value,
+            message : document.getElementById("message1").value
+        }
+        emailjs.send("service_owtq4qm", "template_n60lqcd", params).then(function (res){
+            alert("Sucess! " + res.status);
+        })
+    }
+    
+</script>
+    
+</body>
+</html>
