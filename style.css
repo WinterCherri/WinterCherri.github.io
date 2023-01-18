@@ -512,7 +512,7 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
         font-size: 32px;
     }
     .about-me-parent-des{
-        margin-top: -5%;
+        margin-top: 0px;
     }
     .contact-me-header{
         font-size: 32px;
