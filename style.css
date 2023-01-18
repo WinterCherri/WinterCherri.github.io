@@ -190,7 +190,6 @@ nav .fa{
 .about-section-header{
     font-size: 45px;
     color: #f2f2f2;
-    padding-bottom: 10%;
 }
 .section-header{
     font-size: 45px;
@@ -477,7 +476,10 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
         gap: 0px;
         margin-right: 10%;
     }
-        .image-grid__image{
+    .about-section-header{
+        padding-bottom: 10%;
+    }
+    .image-grid__image{
             max-width: 75px;
     }
 
