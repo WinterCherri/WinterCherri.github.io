@@ -13,8 +13,10 @@ html{
     scroll-padding-top: 150px;
 }
 .header{
+    display: flex;
     align-items: center;
     min-height: 85vh;
+    height: auto;
     width: 100%;
 
     background: rgb(35,37,58);
@@ -55,7 +57,7 @@ nav img{
 .nav-links ul li a{
     color:#f2f2f2;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.5vmin;
     font-weight: 600;
 }
 
@@ -73,15 +75,15 @@ nav img{
     width: 100%;
 }
 
+/**HERO SECTION**/
 .container1{/**this is the mini quote and the yellow rectangle**/
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 12px;;
+    gap: 12px;
 }
 .header-grid{
-    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -90,48 +92,50 @@ nav img{
 
 .newselfie{
     display: block;
-    width: 300px;
+    width: 30vh;
     height: auto;
     justify-self: center;
-    margin-top: 10%;
 }
 #quote{ /**this is the mini quote**/
     font-size: 14px;
-    color:#fff
+    color:#f2f2f2
 
 }
 .left-side-hero{
     justify-content: center;
     align-self: center;
-    margin-top: 10%;
+    width: auto;
+    
 }
 
 .text-box{ /**this is everything in the whole container**/
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: #fff;
-    position: absolute;
+    color: #f2f2f2;
     margin-left: 10%;
 
 }
 
 #big-quote{ /**This is my introduction**/
     font-size: 45px;
-    font-weight: 600;  
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: auto;
 }
 
 #call-to-action{
     display: inline-block;
     text-decoration: none;
-    padding: 16px 32px;
-    margin-top: 32px;
+    padding: 20px 28px;
+    margin-top: 2.4vw;
     position: relative;
     background: linear-gradient(91.91deg, #FC6060 3.83%, #FF9A44 96.03%);
     box-shadow: 0px 6px 18px rgba(107, 59, 0, 0.25);
     border-radius: 70px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     color: #f2f2f2;
     
@@ -177,7 +181,7 @@ nav .fa{
 }
 .about-me-img{
     display: block;
-    width: 300px;
+    width: 30vh;
     height: auto;
     justify-self: center;
 }
@@ -467,15 +471,8 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
 
 /**Responsiveness**/
 @media (max-width: 700px) {
-    .about-me-header{
-        font-size: 24px;
-    
-    }
-    .about-me-description{
-        font-size: 16px;
-    }
     .about-me{
-        gap:42px;
+        gap:22px;
         margin-right: 10%;
     }
         .image-grid__image{
@@ -546,10 +543,6 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
         justify-self: center;
         align-self: center;
     }
-    #big-quote{
-        font-size: 26px;
-        width: auto;
-    }
 }
 
 @media (max-width: 1150px) {
@@ -562,13 +555,18 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
     .header{
         height: 100vh;
     }
+    #call-to-action{
+        display: inline-block;
+        text-decoration: none;
+        padding: 16px 20px;
+        font-weight: 600;
+        font-size: 16px;
 }
 
 @media (max-width: 700px) {
     .header-grid{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        margin-top: 15%;
     }
     .order-box:nth-child(1) {
     grid-column: 1;
@@ -611,6 +609,8 @@ background: linear-gradient(135deg, rgba(46,46,117,1) 15%, rgba(35,37,58,1) 100%
         height: auto;
         justify-self: start;
     }
+    #big-quote{ /**This is my introduction**/
+        font-size: 24px;
+        padding-bottom: 0;
+    }
 }
-
-
