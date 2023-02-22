@@ -144,7 +144,8 @@ nav img{
 
 #call-to-action:hover{
     background: linear-gradient(91.91deg, #e35656 3.83%, #e68b3d 96.03%);
-    transition: 1s;
+    transition: .2s;
+    transform: scale(1.05);
 }
 
 nav .fa{
